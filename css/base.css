@@ -1,0 +1,296 @@
+/* =================================================================== */
+/*
+/*  Pizzaria-Theme-Edit
+/*  Matheus Laidler
+/*  01-09-2019
+/*
+/* =================================================================== */
+
+/* 
+/* Grid
+===================================================================== */
+.row {
+	width: 94%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.ie8 .row {
+	width: 1024px;
+}
+
+.narrow .row {
+	max-width: 980px;
+}
+
+.row .row {
+	width: auto;
+	max-width: none;
+	margin-left: -18px;
+	margin-right: -18px;
+}
+
+
+/* tablets
+--------------------------------------------------------------- */
+@media screen and (max-width:768px) {
+	.row {
+		width: auto;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.row .row {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.column,
+	.columns {
+		padding: 0 15px;
+	}
+
+	.tab-fourth,
+	.row .tab-fourth {
+		width: 25%;
+	}
+
+	.tab-third,
+	.row .tab-third {
+		width: 33.33333%;
+	}
+
+	.tab-half,
+	.row .tab-half {
+		width: 50%;
+	}
+
+	.tab-2thirds,
+	.row .tab-2thirds {
+		width: 66.66667%;
+	}
+
+	.tab-3fourths,
+	.row .tab-3fourths {
+		width: 75%;
+	}
+
+	.tab-whole,
+	.row .tab-whole {
+		width: 100%;
+	}
+
+}
+
+/* mobile
+--------------------------------------------------------------- */
+@media screen and (max-width:600px) {
+	.row {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.row .row {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+
+	.column,
+	.columns {
+		padding: 0 10px;
+	}
+
+	.mob-fourth,
+	.row .mob-fourth {
+		width: 25%;
+	}
+
+	.mob-half,
+	.row .mob-half {
+		width: 50%;
+	}
+
+	.mob-3fourths,
+	.row .mob-3fourths {
+		width: 75%;
+	}
+
+	.mob-whole,
+	.row .mob-whole {
+		width: 100%;
+	}
+
+}
+
+/* small mobile devices
+--------------------------------------------------------------- */
+@media screen and (max-width:400px) {
+	.row {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.row .row {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.column,
+	.columns {
+		width: auto !important;
+		float: none !important;
+		margin-left: 0;
+		margin-right: 0;
+		clear: both;
+		padding: 0;
+	}
+
+	[class*="column"] + [class*="column"]:last-child {
+		float: none;
+	}
+
+}
+
+/* larger screens
+--------------------------------------------------------------- */
+@media screen and (min-width:1200px) {
+	.wide .wrap {
+		max-width: 1180px;
+	}
+
+}
+
+
+
+/* smaller screens
+--------------------------------------------------------------- */
+@media screen and (max-width:900px) {
+
+	/* block grids for small screens */
+	.s-bgrid-sixth .bgrid {
+		width: 16.66667%;
+	}
+
+	.s-bgrid-fourth .bgrid {
+		width: 25%;
+	}
+
+	.s-bgrid-third .bgrid {
+		width: 33.33333%;
+	}
+
+	.s-bgrid-half .bgrid {
+		width: 50%;
+	}
+
+	.s-bgrid-whole .bgrid {
+		width: 100%;
+		clear: both;
+	}
+
+	.first,
+	[class*="bgrid-"] .bgrid:nth-child(n) {
+		clear: none;
+	}
+
+	.s-bgrid-sixth .bgrid:nth-child(6n+1),
+	.s-bgrid-fourth .bgrid:nth-child(4n+1),
+	.s-bgrid-third .bgrid:nth-child(3n+1),
+	.s-bgrid-half .bgrid:nth-child(2n+1) {
+		clear: both;
+	}
+
+}
+
+/* tablets
+--------------------------------------------------------------- */
+@media screen and (max-width:768px) {
+	.tab-bgrid-sixth .bgrid {
+		width: 16.66667%;
+	}
+
+	.tab-bgrid-fourth .bgrid {
+		width: 25%;
+	}
+
+	.tab-bgrid-third .bgrid {
+		width: 33.33333%;
+	}
+
+	.tab-bgrid-half .bgrid {
+		width: 50%;
+	}
+
+	.tab-bgrid-whole .bgrid {
+		width: 100%;
+		clear: both;
+	}
+
+	.first,
+	[class*="tab-bgrid-"] .bgrid:nth-child(n) {
+		clear: none;
+	}
+
+	.tab-bgrid-sixth .bgrid:nth-child(6n+1),
+	.tab-bgrid-fourth .bgrid:nth-child(4n+1),
+	.tab-bgrid-third .bgrid:nth-child(3n+1),
+	.tab-bgrid-half .bgrid:nth-child(2n+1) {
+		clear: both;
+	}
+
+}
+
+/* mobile devices
+--------------------------------------------------------------- */
+@media screen and (max-width:600px) {
+	.mob-bgrid-sixth .bgrid {
+		width: 16.66667%;
+	}
+
+	.mob-bgrid-fourth .bgrid {
+		width: 25%;
+	}
+
+	.mob-bgrid-third .bgrid {
+		width: 33.33333%;
+	}
+
+	.mob-bgrid-half .bgrid {
+		width: 50%;
+	}
+
+	.mob-bgrid-whole .bgrid {
+		width: 100%;
+		clear: both;
+	}
+
+	.first,
+	[class*="mob-bgrid-"] .bgrid:nth-child(n) {
+		clear: none;
+	}
+
+	.mob-bgrid-sixth .bgrid:nth-child(6n+1),
+	.mob-bgrid-fourth .bgrid:nth-child(4n+1),
+	.mob-bgrid-third .bgrid:nth-child(3n+1),
+	.mob-bgrid-half .bgrid:nth-child(2n+1) {
+		clear: both;
+	}
+
+}
+
+/* stack on small mobile devices
+--------------------------------------------------------------- */
+@media screen and (max-width:400px) {
+	.stack .bgrid {
+		width: auto !important;
+		float: none !important;
+		margin-left: 0;
+		margin-right: 0;
+		clear: both;
+	}
+
+}

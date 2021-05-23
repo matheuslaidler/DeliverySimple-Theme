@@ -1,0 +1,28 @@
+SOURCES AND CREDITS:
+
+Matheus Laidler Vidal Cunha
+
+Fonts:
+ - Montserrat Font (http://www.google.com/fonts/specimen/Montserrat)
+
+Icons:
+ - Font Awesome (http://fortawesome.github.io/Font-Awesome/)
+ - Micons (http://geticonjar.com/freebies/231-micons/)
+
+Stock Photos and Graphics:
+ - UnSplash.com (http://unsplash.com/)
+ 
+Javascript Files:
+
+ - JQuery (http://jquery.com/)
+ - Modernizr (http://modernizr.com/)
+ - jQuery Final Countdown (http://hilios.github.io/jQuery.countdown/)
+ - jQuery Placeholder (https://github.com/mathiasbynens/jquery-placeholder)
+ - Fittext (http://fittextjs.com/)
+ - Owl Carousel (http://owlgraphic.com/owlcarousel/)
+ - AjaxChimp (https://github.com/scdoshi/jquery-ajaxchimp)
+
+--------------------------------------------------------------------------------------------------------- 
+
+  
+
