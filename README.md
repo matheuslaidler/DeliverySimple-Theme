@@ -4,14 +4,14 @@ Front-end project theme
 ### Portuguese [PT-BR]
 
 #### Sobre:
-  Projeto criado para ajudar uma pizzaria de um conhecido. Pois o mesmo possuia um site bem mais simplista, apenas para ser cardápio e número de telefone, feito em HTML. Porém, ele acabou não utilizando meu projeto, e agora que eles fecharam eu decidi publicar aqui.
+  Projeto criado para ajudar uma pizzaria de um conhecido que queria apenas um site para cardápio e número de telefone para o delivery. Já que eles fecharam eu decidi deixar o projeto aberto, ou seja, decidi publicar aqui só que sem as imagens e dados deles, como a logo, telefone e localização.
   
 ### Funcionamento:
   O projeto funciona da seguinte maneira;
   
-  Primeira página já mostra uma rápida introdução, os dois telefones de contato para o delivery, e o menu de opções.
+  Primeira página já mostra uma rápida introdução, os dois telefones de contato para o delivery, e um menu de opções.
   
-  O menu te disponibiliza acessar o cardápido - feito por uma tabela símples -, e a localização - mostrando-a pelo google maps.
+  O menu te disponibiliza acessar o **cardápido** - feito por uma tabela símples -, e a **localização** - mostrando-a pelo google maps.
 
 ### Prévia:
 ![preview](https://user-images.githubusercontent.com/76860503/119253444-a8afba80-bb87-11eb-847f-28b8d76860d8.png)
