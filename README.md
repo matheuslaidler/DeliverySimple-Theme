@@ -27,5 +27,7 @@ Num geral, o único requisito é ter algum conhecimento mínimo de HTML e talvez
 
 ### Créditos:
 Autor: Matheus Laidler
+
 Others: Outros créditos dentro do arquivo Credits.txt (arquivos de código de terceiros foram usados para facilitar o desenvolvimento do template de forma rápida e funcional)
+
 License: MIT
